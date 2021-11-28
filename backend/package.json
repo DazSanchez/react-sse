@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Express Backend for Server Side Events",
+  "main": "index.js",
+  "repository": "https://github.com/DazSanchez/react-sse",
+  "author": "DazSanchez",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "nodemon --config ./nodemon.json src/app.ts"
+  }
+}
